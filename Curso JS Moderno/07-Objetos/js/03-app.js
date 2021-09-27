@@ -10,3 +10,12 @@ const producto = {
     disponible: false
 }
 
+//Agregar nuevas propiedades al objeto.
+
+producto.imagen="Imagen.jpg";
+
+//Eliminar propiedades al objeto 
+
+delete producto.precio;
+
+console.log(producto.imagen);
